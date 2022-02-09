@@ -1,0 +1,16 @@
+C:\Users\johnn\workspace\backend\bangazon\csharp\heistSequal\bin\Debug\net5.0\heistSequal.exe
+C:\Users\johnn\workspace\backend\bangazon\csharp\heistSequal\bin\Debug\net5.0\heistSequal.deps.json
+C:\Users\johnn\workspace\backend\bangazon\csharp\heistSequal\bin\Debug\net5.0\heistSequal.runtimeconfig.json
+C:\Users\johnn\workspace\backend\bangazon\csharp\heistSequal\bin\Debug\net5.0\heistSequal.runtimeconfig.dev.json
+C:\Users\johnn\workspace\backend\bangazon\csharp\heistSequal\bin\Debug\net5.0\heistSequal.dll
+C:\Users\johnn\workspace\backend\bangazon\csharp\heistSequal\bin\Debug\net5.0\ref\heistSequal.dll
+C:\Users\johnn\workspace\backend\bangazon\csharp\heistSequal\bin\Debug\net5.0\heistSequal.pdb
+C:\Users\johnn\workspace\backend\bangazon\csharp\heistSequal\obj\Debug\net5.0\heistSequal.csproj.AssemblyReference.cache
+C:\Users\johnn\workspace\backend\bangazon\csharp\heistSequal\obj\Debug\net5.0\heistSequal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johnn\workspace\backend\bangazon\csharp\heistSequal\obj\Debug\net5.0\heistSequal.AssemblyInfoInputs.cache
+C:\Users\johnn\workspace\backend\bangazon\csharp\heistSequal\obj\Debug\net5.0\heistSequal.AssemblyInfo.cs
+C:\Users\johnn\workspace\backend\bangazon\csharp\heistSequal\obj\Debug\net5.0\heistSequal.csproj.CoreCompileInputs.cache
+C:\Users\johnn\workspace\backend\bangazon\csharp\heistSequal\obj\Debug\net5.0\heistSequal.dll
+C:\Users\johnn\workspace\backend\bangazon\csharp\heistSequal\obj\Debug\net5.0\ref\heistSequal.dll
+C:\Users\johnn\workspace\backend\bangazon\csharp\heistSequal\obj\Debug\net5.0\heistSequal.pdb
+C:\Users\johnn\workspace\backend\bangazon\csharp\heistSequal\obj\Debug\net5.0\heistSequal.genruntimeconfig.cache

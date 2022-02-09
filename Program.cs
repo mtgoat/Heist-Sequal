@@ -8,7 +8,7 @@ namespace heistSequal
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Let's Your Our Heist!");
+            Console.WriteLine("\nLet's Your Our Heist!");
 
             List<IRobber> myRolodex = new List<IRobber>(){
                 new Hacker ()
@@ -41,17 +41,23 @@ namespace heistSequal
                 percentageCut = 10
                 }
             };
-
+            
             //When the program starts, print out the number of current operatives in the roladex. 
-            Console.WriteLine($"Currently we have {myRolodex.Count} operatives in the roladex.");
-
+            Console.WriteLine($"\nCurrently we have {myRolodex.Count} operatives in the roladex.");
+            
             //Then prompt the user to enter the name of a new possible crew member. 
-            Console.WriteLine("Let's add new person to the roladex!");
+            Console.WriteLine("\nLet's add new person to the roladex!");
 
-            string personName = Console.ReadLine();
-
-            Console.WriteLine($"You typed {personName} as a name.");
-
+            while(true){
+            Console.WriteLine("\nWhat is a name of the new person to add to the roladex?\n");
+            string personName = Console.ReadLine();Console.WriteLine();
+            if (personName == "")
+            {
+                break;
+            } else {
+            
+            Console.WriteLine($"You typed \"{personName}\" as a name.");
+            Console.WriteLine();
             //Once the user has entered a name, print out a list of possible specialties and have the user select which specialty this operative has.
             Console.WriteLine(@"Next, please select a specialist type from the following.
             Hacker (Disables alarms): enter 1
@@ -84,41 +90,43 @@ namespace heistSequal
                 break;
 
                 default:
-                Console.WriteLine("please enter a number from 1 to 3.");
+                Console.WriteLine("\nplease enter a number from 1 to 3.");
                 break;
             }
 
             //function to add a newMember to myRolodex list
-            void add (IRobber newMember){
+            void add (IRobber newMember)
+            {
             //Once the user has selected a specialty, prompt them to enter the crew member's skill level as an integer between 1 and 100. 
             //add skill ,
-            Console.WriteLine("What is a the new person's skill level? please enter between 0 to 100.");
+            Console.WriteLine("\nWhat is a the new person's skill level? please enter between 0 to 100.");
 
             int personSkill = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($"You typed {personSkill} as a skill level.");
+            Console.WriteLine($"\nYou typed \"{personSkill}\" as a skill level.");
 
             newMember.skillLevel = personSkill;
        
             //Then prompt the user to enter the percentage cut the crew member demands for each mission. 
             //add cut ,
-            Console.WriteLine("What is a the new person's cut? please enter between 0 to 100.");
+            Console.WriteLine("\nWhat is a the new person's cut? please enter between 0 to 100.");
 
             int personCut = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($"You typed {personCut} as a skill level.");
+            Console.WriteLine($"\nYou typed \"{personCut}\" as a skill level.");
 
             //Once the user has entered the crew member's name, specialty, skill level, and cut, you should instantiate the appropriate class for that crew member (based on their specialty) and they should be added to the rolodex.
             myRolodex.Add(newMember);
 
-            Console.WriteLine($"Currently we have {myRolodex.Count} operatives in the roladex.");
+            Console.WriteLine($"\nCurrently, we have {myRolodex.Count} operatives in the roladex.");
+};
 
+            };
 
-        };
+            };
+        //Continue the above action and allow the user to enter as many crew members as they like to the rolodex until they enter a blank name before continuing. -line51 while loop
         
-        //Continue the above action and allow the user to enter as many crew members as they like to the rolodex until they enter a blank name before continuing.
-        
-        
+        Console.WriteLine("Continues");
         
         /*------------------------------------------------*/
         }
